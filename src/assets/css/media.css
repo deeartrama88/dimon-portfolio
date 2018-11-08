@@ -1,0 +1,47 @@
+@media screen and (max-width: 1600px) {
+    .fullName {
+        font-size: 40px;
+    }
+
+    .prof {
+        font-size: 20px;
+    }
+
+    header ul li {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .menu {
+        display: none;
+    }
+    .name {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .fullName {
+        font-size: 36px;
+    }
+
+    .mobNewLine {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .fullName {
+        font-size: 29px;
+        line-height: 40px;
+    }
+    .prof {
+        font-size: 16px;
+    }
+
+    .avatar {
+        width: 130px;
+        height: 130px;
+    }
+}
