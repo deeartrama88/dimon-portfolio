@@ -1,0 +1,11 @@
+.programs {
+  padding: 40px 10px;
+  background: #ffffff; }
+  .programs img {
+    margin: 15px;
+    text-align: center; }
+  .programs__flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center; }

@@ -6,6 +6,10 @@
   header .name .name_and_prof .prof {
     font-size: 20px; } }
 
+@media screen and (max-width: 1300px) {
+  .programs__flex-container {
+    grid-template-columns: auto auto auto auto; } }
+
 @media screen and (max-width: 1100px) {
   header .name {
     width: 100%; }
@@ -34,7 +38,11 @@
 
 @media screen and (max-width: 700px) {
   .mobNewLine {
-    display: block; } }
+    display: block; }
+  .work-plan__title {
+    font-size: 45px; }
+  .work-plan p {
+    font-size: 20px; } }
 
 @media screen and (max-width: 550px) {
   header .name .name_and_prof {

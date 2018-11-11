@@ -2,6 +2,8 @@
 @import "header.scss";
 @import "about-me.scss";
 @import "experience.scss";
+@import "programs.scss";
+@import "work-plan.scss";
 
 body {
   background-color: #282c34;
@@ -37,6 +39,7 @@ ul {
 .container {
   max-width: 1400px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 @import "media.scss";

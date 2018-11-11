@@ -1,0 +1,17 @@
+@import "colors.scss";
+
+.work-plan {
+  background: $green-pale;
+  padding: 30px 0 70px;
+  border: solid $green-main;
+  border-width: 5px 0;
+
+  &__title {
+    font-family: 'Sigmar', sans-serif;
+    font-size: 50px;
+  }
+  p {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+}

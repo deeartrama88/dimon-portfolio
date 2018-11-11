@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Header from './components/header';
 import AboutMe from './components/aboutMe';
 import Experience from './components/experience';
+import Programs from './components/programs';
+import WorkPlan from './components/workPlan';
 
 class App extends Component {
   render() {
@@ -10,6 +12,8 @@ class App extends Component {
          <Header />
          <AboutMe />
          <Experience />
+         <Programs />
+         <WorkPlan />
       </div>
     );
   }

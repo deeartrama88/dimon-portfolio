@@ -1,0 +1,11 @@
+.work-plan {
+  background: #c5e0bf;
+  padding: 50px 0 100px;
+  border: solid #76a10f;
+  border-width: 5px 0; }
+  .work-plan__title {
+    font-family: 'Sigmar', sans-serif;
+    font-size: 50px; }
+  .work-plan p {
+    font-size: 25px;
+    margin-bottom: 30px; }
