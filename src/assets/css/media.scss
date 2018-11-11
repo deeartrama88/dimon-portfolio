@@ -69,6 +69,12 @@
 
 }
 
+@media screen and (max-width: 700px) {
+  .mobNewLine {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 550px) {
   header {
     .name {
@@ -87,7 +93,7 @@
     }
     img {
       width: 120px;
-      margin: 0 0 0 30px;
+      margin: 0 10px;
     }
     &__contacts {
       &__lang {
@@ -102,15 +108,9 @@
       }
     }
   }
-
-
-
-  .mobNewLine {
-    display: block;
-  }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   header {
     .name {
       .name_and_prof {

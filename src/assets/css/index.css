@@ -102,7 +102,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace; }
 
-green {
+.header_green {
   color: #76a10f; }
 
 ul {
@@ -150,6 +150,10 @@ ul {
       font-size: 60px;
       line-height: 47px; } }
 
+@media screen and (max-width: 700px) {
+  .mobNewLine {
+    display: block; } }
+
 @media screen and (max-width: 550px) {
   header .name .name_and_prof {
     margin: 0 0 0 10px; }
@@ -161,17 +165,15 @@ ul {
       grid-template-columns: auto; }
     .about-me img {
       width: 120px;
-      margin: 0 0 0 30px; }
+      margin: 0 10px; }
     .about-me__contacts__lang .word {
       display: block; }
     .about-me__contacts__lang .value {
       float: none;
       margin-left: 30px;
-      font-size: 40px; }
-  .mobNewLine {
-    display: block; } }
+      font-size: 40px; } }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   header .name .name_and_prof .fullName {
     font-size: 29px;
     line-height: 40px; }
