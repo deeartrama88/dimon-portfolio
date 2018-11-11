@@ -1,0 +1,19 @@
+@import "colors.scss";
+.experience {
+  background: url("../images/bg-01.jpg") no-repeat;
+  background-size: cover;
+  color: $white-main;
+  padding: 50px 10px;
+  border-bottom: 3px solid $green-main;
+
+  &-title {
+    font-size: 50px;
+    font-family: 'Sigmar', sans-serif;
+    margin-bottom: 20px;
+  }
+
+  &-desc {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+}

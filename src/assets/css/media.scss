@@ -128,4 +128,14 @@
     width: 130px;
     height: 130px;
   }
+
+  // experience
+  .experience {
+    &-title {
+      font-size: 40px;
+    }
+    &-desc {
+      font-size: 22px;
+    }
+  }
 }

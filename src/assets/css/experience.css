@@ -1,0 +1,13 @@
+.experience {
+  background: url("../images/bg-01.jpg") no-repeat;
+  background-size: cover;
+  color: #EEF6F2;
+  padding: 50px 10px;
+  border-bottom: 3px solid #76a10f; }
+  .experience-title {
+    font-size: 50px;
+    font-family: 'Sigmar', sans-serif;
+    margin-bottom: 20px; }
+  .experience-desc {
+    font-size: 28px;
+    margin-bottom: 30px; }

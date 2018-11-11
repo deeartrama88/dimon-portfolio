@@ -63,4 +63,8 @@
     font-size: 16px; }
   .avatar {
     width: 130px;
-    height: 130px; } }
+    height: 130px; }
+  .experience-title {
+    font-size: 40px; }
+  .experience-desc {
+    font-size: 22px; } }
