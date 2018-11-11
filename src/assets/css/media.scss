@@ -1,3 +1,4 @@
+@import "colors.scss";
 @media screen and (max-width: 1600px) {
   header {
     ul {
@@ -20,6 +21,7 @@
 }
 
 @media screen and (max-width: 1100px) {
+  // HEADER
   header {
     .name {
       width: 100%;
@@ -29,18 +31,78 @@
     }
   }
 
+  // ABOUT ME
+  .about-me {
+    background-repeat: round;
+    &__grid-wrap {
+      grid-template-columns: auto;
+
+      img {
+        width: 170px;
+        margin: 0 0 0 50px;
+      }
+    }
+    &__exp {
+      text-align: center;
+    }
+    &__contacts {
+      &__info {
+        font-size: 25px;
+        &-title {
+          color: $green-darker;
+        }
+      }
+      &__lang {
+        .word {
+          font-size: 50px;
+        }
+        .desc {
+          font-size: 30px;
+        }
+        .value {
+          font-size: 60px;
+          line-height: 47px;
+        }
+      }
+    }
+  }
+
 }
 
 @media screen and (max-width: 550px) {
   header {
     .name {
       .name_and_prof {
+        margin: 0 0 0 10px;
         .fullName {
           font-size: 36px;
         }
       }
     }
   }
+  .about-me {
+    background-repeat: round;
+    &__grid-wrap {
+      grid-template-columns: auto;
+    }
+    img {
+      width: 120px;
+      margin: 0 0 0 30px;
+    }
+    &__contacts {
+      &__lang {
+        .word {
+          display: block;
+        }
+        .value {
+          float: none;
+          margin-left: 30px;
+          font-size: 40px;
+        }
+      }
+    }
+  }
+
 
 
   .mobNewLine {

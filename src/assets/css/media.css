@@ -10,11 +10,46 @@
   header .name {
     width: 100%; }
   header .menu {
-    display: none; } }
+    display: none; }
+  .about-me {
+    background-repeat: round; }
+    .about-me__grid-wrap {
+      grid-template-columns: auto; }
+      .about-me__grid-wrap img {
+        width: 170px;
+        margin: 0 0 0 50px; }
+    .about-me__exp {
+      text-align: center; }
+    .about-me__contacts__info {
+      font-size: 25px; }
+      .about-me__contacts__info-title {
+        color: #4c6333; }
+    .about-me__contacts__lang .word {
+      font-size: 50px; }
+    .about-me__contacts__lang .desc {
+      font-size: 30px; }
+    .about-me__contacts__lang .value {
+      font-size: 60px;
+      line-height: 47px; } }
 
 @media screen and (max-width: 550px) {
-  header .name .name_and_prof .fullName {
-    font-size: 36px; }
+  header .name .name_and_prof {
+    margin: 0 0 0 10px; }
+    header .name .name_and_prof .fullName {
+      font-size: 36px; }
+  .about-me {
+    background-repeat: round; }
+    .about-me__grid-wrap {
+      grid-template-columns: auto; }
+    .about-me img {
+      width: 120px;
+      margin: 0 0 0 30px; }
+    .about-me__contacts__lang .word {
+      display: block; }
+    .about-me__contacts__lang .value {
+      float: none;
+      margin-left: 30px;
+      font-size: 40px; }
   .mobNewLine {
     display: block; } }
 

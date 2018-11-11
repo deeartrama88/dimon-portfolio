@@ -1,3 +1,4 @@
+@import "colors.scss";
 @import "header.scss";
 @import "about-me.scss";
 
@@ -11,6 +12,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: $blue-dark;
 }
 
 code {
@@ -19,7 +21,7 @@ code {
 }
 
 green {
-  color: #76a10f;
+  color: $green-main;
 }
 
 ul {
@@ -33,6 +35,7 @@ ul {
 
 .container {
   max-width: 1400px;
+  margin: 0 auto;
 }
 
 @import "media.scss";
