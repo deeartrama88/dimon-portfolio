@@ -1,0 +1,82 @@
+.wild-west {
+  background: #ffffff; }
+  .wild-west__title {
+    background: url("../images/works/wild-west-title-bg.png") no-repeat;
+    background-size: cover;
+    font-size: 80px;
+    text-align: center;
+    color: #282c34;
+    font-family: "Sigmar", sans-serif;
+    padding: 20px 0;
+    line-height: 80px; }
+  .wild-west__scenes-two {
+    background: #b8b8b8;
+    padding-top: 10px;
+    border-bottom: 10px solid #76a10f; }
+    .wild-west__scenes-two img {
+      width: 100%;
+      vertical-align: bottom; }
+  .wild-west__scenes-one {
+    background: #474747;
+    padding-bottom: 10px; }
+    .wild-west__scenes-one img {
+      width: 49%;
+      height: auto; }
+    .wild-west__scenes-one .flex-wrap {
+      align-items: flex-end;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between; }
+  .wild-west__desc {
+    color: #EEF6F2;
+    font-size: 30px;
+    font-family: 'Sigmar', sans-serif;
+    margin: 25px 0;
+    line-height: 35px; }
+  .wild-west__weapons .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start; }
+  .wild-west__weapons__title {
+    font-size: 38px;
+    color: #EEF6F2;
+    font-family: 'Sigmar', sans-serif;
+    text-align: center;
+    background: #636363;
+    padding: 15px 0; }
+  .wild-west__weapons-wrap {
+    background: #474747;
+    border-bottom: 10px solid #76a10f; }
+  .wild-west__weapons img {
+    width: 65%; }
+    .wild-west__weapons img:first-child {
+      width: 35%; }
+  .wild-west__icons {
+    background: #b8b8b8;
+    padding-bottom: 20px;
+    border-bottom: 10px solid #76a10f; }
+    .wild-west__icons .flex-container {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: center; }
+    .wild-west__icons-item {
+      min-width: 200px;
+      width: 19%; }
+      .wild-west__icons-item:first-child {
+        width: 40%;
+        font-size: 50px;
+        font-family: 'Sigmar', sans-serif;
+        min-width: auto; }
+  .wild-west__characters {
+    background: #474747; }
+    .wild-west__characters img {
+      width: 100%; }
+    .wild-west__characters-title {
+      font-size: 50px;
+      line-height: 55px;
+      text-align: center;
+      font-family: 'Sigmar', sans-serif;
+      color: #EEF6F2;
+      padding: 20px 0; }

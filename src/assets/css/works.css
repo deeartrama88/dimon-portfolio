@@ -1,0 +1,18 @@
+.works__title {
+  font-size: 100px;
+  text-align: center;
+  font-family: "Sigmar", sans-serif;
+  color: #EEF6F2;
+  background: url("../images/works/works_title_bg.jpg") no-repeat;
+  background-size: cover; }
+
+.works__fantasy {
+  background: url("../images/works/fantasy-bg.jpg") no-repeat;
+  background-size: cover;
+  border-top: 10px solid #76a10f; }
+  .works__fantasy__title {
+    padding: 50px 0;
+    text-align: center;
+    color: #282c34;
+    font-size: 50px;
+    font-family: 'Sigmar', sans-serif; }

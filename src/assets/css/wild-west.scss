@@ -1,0 +1,107 @@
+@import "colors.scss";
+
+.wild-west {
+  background: #ffffff;
+  &__title {
+    background: url("../images/works/wild-west-title-bg.png") no-repeat;
+    background-size: cover;
+    font-size: 80px;
+    text-align: center;
+    color: $blue-dark;
+    font-family: "Sigmar", sans-serif;
+    padding: 20px 0;
+    line-height: 80px;
+  }
+  &__scenes-two {
+    background: $gray-light;
+    padding-top: 10px;
+    border-bottom: 10px solid $green-main;
+    img {
+      width: 100%;
+      vertical-align: bottom;
+    }
+  }
+  &__scenes-one {
+    background: $gray-medium;
+    padding-bottom: 10px;
+    img  {
+      width: 49%;
+      height: auto;
+    }
+    .flex-wrap {
+      align-items: flex-end;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+  }
+  &__desc {
+    color: $white-main;
+    font-size: 30px;
+    font-family: 'Sigmar', sans-serif;
+    margin: 25px 0;
+    line-height: 35px;
+  }
+  &__weapons {
+    .flex-container {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    &__title {
+      font-size: 38px;
+      color: $white-main;
+      font-family: 'Sigmar', sans-serif;
+      text-align: center;
+      background: $gray-medium-light;
+      padding: 15px 0;
+    }
+    &-wrap {
+      background: $gray-medium;
+      border-bottom: 10px solid $green-main;
+    }
+    img {
+      &:first-child {
+        width: 35%;
+      }
+      width: 65%;
+    }
+  }
+
+  &__icons {
+    background: $gray-light;
+    padding-bottom: 20px;
+    border-bottom: 10px solid $green-main;
+    .flex-container {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &-item {
+      &:first-child {
+        width: 40%;
+        font-size: 50px;
+        font-family: 'Sigmar', sans-serif;
+        min-width: auto;
+      }
+      min-width: 200px;
+      width: 19%;
+    }
+  }
+  &__characters {
+    background: $gray-medium;
+    img {
+      width: 100%;
+    }
+    &-title {
+      font-size: 50px;
+      line-height: 55px;
+      text-align: center;
+      font-family: 'Sigmar', sans-serif;
+      color: $white-main;
+      padding: 20px 0;
+    }
+  }
+}

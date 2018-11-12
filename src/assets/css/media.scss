@@ -75,6 +75,16 @@
     }
   }
 
+  // works
+  .works {
+    &__fantasy {
+      &__title {
+        font-size: 40px;
+        padding: 30px 0;
+      }
+    }
+  }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -87,6 +97,47 @@
     }
     p {
       font-size: 20px;
+    }
+  }
+  .works {
+    &__title {
+      font-size: 55px;
+    }
+  }
+  .wild-west {
+    &__title {
+      font-size: 55px;
+      line-height: 65px;
+    }
+    &__desc {
+      font-size: 22px;
+      line-height: 30px;
+    }
+    &__scenes-one {
+      img {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+    }
+
+    &__icons {
+      .flex-container {
+        justify-content: space-around;
+      }
+      &-item {
+        &:first-child {
+          line-height: 40px;
+          padding: 20px 0;
+          width: auto;
+          text-align: center;
+        }
+      }
+    }
+    &__characters {
+      &-title {
+        font-size: 40px;
+        line-height: 42px;
+      }
     }
   }
 }
@@ -124,6 +175,16 @@
       }
     }
   }
+
+  // works
+  .works {
+    &__fantasy {
+      &__title {
+        font-size: 27px;
+        padding: 20px 0;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -154,4 +215,58 @@
       font-size: 22px;
     }
   }
+
+  .works {
+    &__title {
+      font-size: 40px;
+      line-height: 60px;
+      padding: 20px 0;
+    }
+  }
+
+  .wild-west {
+    &__title {
+      font-size: 40px;
+      line-height: 45px;
+    }
+    &__desc {
+      font-size: 22px;
+      line-height: 30px;
+    }
+    &__scenes-one {
+      img {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+    }
+    &__weapons {
+      &__title {
+        font-size: 22px;
+        line-height: 30px;
+      }
+      img {
+        &:first-child {
+          width: 100%;
+        }
+        width: 100%;
+      }
+    }
+    &__icons {
+      &-item {
+        width: 40%;
+        min-width: auto;
+        &:first-child {
+          font-size: 30px;
+          line-height: 40px;
+        }
+      }
+    }
+    &__characters {
+      &-title {
+        font-size: 30px;
+        line-height: 32px;
+      }
+    }
+  }
+
 }

@@ -34,7 +34,10 @@
       font-size: 30px; }
     .about-me__contacts__lang .value {
       font-size: 60px;
-      line-height: 47px; } }
+      line-height: 47px; }
+  .works__fantasy__title {
+    font-size: 40px;
+    padding: 30px 0; } }
 
 @media screen and (max-width: 700px) {
   .mobNewLine {
@@ -42,7 +45,28 @@
   .work-plan__title {
     font-size: 45px; }
   .work-plan p {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .works__title {
+    font-size: 55px; }
+  .wild-west__title {
+    font-size: 55px;
+    line-height: 65px; }
+  .wild-west__desc {
+    font-size: 22px;
+    line-height: 30px; }
+  .wild-west__scenes-one img {
+    width: 100%;
+    margin-bottom: 15px; }
+  .wild-west__icons .flex-container {
+    justify-content: space-around; }
+  .wild-west__icons-item:first-child {
+    line-height: 40px;
+    padding: 20px 0;
+    width: auto;
+    text-align: center; }
+  .wild-west__characters-title {
+    font-size: 40px;
+    line-height: 42px; } }
 
 @media screen and (max-width: 550px) {
   header .name .name_and_prof {
@@ -61,7 +85,10 @@
     .about-me__contacts__lang .value {
       float: none;
       margin-left: 30px;
-      font-size: 40px; } }
+      font-size: 40px; }
+  .works__fantasy__title {
+    font-size: 27px;
+    padding: 20px 0; } }
 
 @media screen and (max-width: 480px) {
   header .name .name_and_prof .fullName {
@@ -75,4 +102,33 @@
   .experience-title {
     font-size: 40px; }
   .experience-desc {
-    font-size: 22px; } }
+    font-size: 22px; }
+  .works__title {
+    font-size: 40px;
+    line-height: 60px;
+    padding: 20px 0; }
+  .wild-west__title {
+    font-size: 40px;
+    line-height: 45px; }
+  .wild-west__desc {
+    font-size: 22px;
+    line-height: 30px; }
+  .wild-west__scenes-one img {
+    width: 100%;
+    margin-bottom: 15px; }
+  .wild-west__weapons__title {
+    font-size: 22px;
+    line-height: 30px; }
+  .wild-west__weapons img {
+    width: 100%; }
+    .wild-west__weapons img:first-child {
+      width: 100%; }
+  .wild-west__icons-item {
+    width: 40%;
+    min-width: auto; }
+    .wild-west__icons-item:first-child {
+      font-size: 30px;
+      line-height: 40px; }
+  .wild-west__characters-title {
+    font-size: 30px;
+    line-height: 32px; } }

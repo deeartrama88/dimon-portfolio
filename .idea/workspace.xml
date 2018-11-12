@@ -2,30 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9f7bd9e-251e-471c-aa2e-f5128c7e0b34" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/css/programs.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/css/work-plan.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/programs/3d-max.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/programs/3dcoat.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/programs/ae.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/programs/m.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/programs/marmoset.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/programs/photoshop.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/programs/substance.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/programs/unfold3d.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/programs/unity.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/programs/uvlayout.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/programs/zbrush.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/programs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/workPlan.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/css/wild-west.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/css/works.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/programs/works_title_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/fantasy-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/icon-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/icon-10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/icon-11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/icon-12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/icon-13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/icon-14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/icon-15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/icon-16.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/icon-17.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/icon-18.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/icon-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/icon-3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/icon-4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/icon-5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/icon-6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/icon-7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/icon-8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/icon-9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/wild-west-characters.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/wild-west-scene-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/wild-west-scene-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/wild-west-scene-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/wild-west-title-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/wild-west-weapost-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/wild-west-weapost-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/works/works_title_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/portfolioWorks.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/wildWest.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/colors.scss" afterPath="$PROJECT_DIR$/src/assets/css/colors.scss" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/experience.css" afterPath="$PROJECT_DIR$/src/assets/css/experience.css" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/experience.scss" afterPath="$PROJECT_DIR$/src/assets/css/experience.scss" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/index.css" afterPath="$PROJECT_DIR$/src/assets/css/index.css" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/index.scss" afterPath="$PROJECT_DIR$/src/assets/css/index.scss" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/media.css" afterPath="$PROJECT_DIR$/src/assets/css/media.css" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/media.scss" afterPath="$PROJECT_DIR$/src/assets/css/media.scss" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/work-plan.css" afterPath="$PROJECT_DIR$/src/assets/css/work-plan.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,21 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="experience.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/experience.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/css/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+            <state relative-caret-position="217">
+              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -59,30 +67,42 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="403">
+              <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="work-plan.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/css/work-plan.scss">
+      <file leaf-file-name="portfolioWorks.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/portfolioWorks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="558">
+              <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="works.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/css/works.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="programs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/programs.js">
+      <file leaf-file-name="wildWest.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/wildWest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="733">
-              <caret line="28" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="404">
+              <caret line="87" column="15" lean-forward="true" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="15" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -90,41 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="programs.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/css/programs.scss">
+      <file leaf-file-name="wild-west.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/css/wild-west.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workPlan.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/workPlan.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="experience.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/css/experience.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/css/colors.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="-219">
+              <caret line="82" column="21" lean-forward="true" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -133,8 +123,40 @@
       <file leaf-file-name="media.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/assets/css/media.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+            <state relative-caret-position="215">
+              <caret line="180" column="16" lean-forward="true" selection-start-line="180" selection-start-column="16" selection-end-line="180" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/css/colors.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="programs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/programs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workPlan.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/workPlan.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="12" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -154,6 +176,7 @@
     <findStrings>
       <find>newL</find>
       <find>newLi</find>
+      <find>474747</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,7 +190,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/assets/css/index.css" />
         <option value="$PROJECT_DIR$/src/assets/css/media.css" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/assets/css/header.scss" />
         <option value="$PROJECT_DIR$/src/assets/css/about-me.scss" />
         <option value="$PROJECT_DIR$/src/components/header.js" />
@@ -176,11 +198,17 @@
         <option value="$PROJECT_DIR$/src/components/programs.js" />
         <option value="$PROJECT_DIR$/src/assets/css/programs.scss" />
         <option value="$PROJECT_DIR$/src/components/workPlan.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/assets/css/colors.scss" />
         <option value="$PROJECT_DIR$/src/assets/css/work-plan.scss" />
         <option value="$PROJECT_DIR$/src/assets/css/experience.scss" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/secretContent.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/assets/css/index.scss" />
+        <option value="$PROJECT_DIR$/src/assets/css/colors.scss" />
+        <option value="$PROJECT_DIR$/src/components/wildWest.js" />
+        <option value="$PROJECT_DIR$/src/components/portfolioWorks.js" />
+        <option value="$PROJECT_DIR$/src/assets/css/works.scss" />
+        <option value="$PROJECT_DIR$/src/assets/css/wild-west.scss" />
         <option value="$PROJECT_DIR$/src/assets/css/media.scss" />
       </list>
     </option>
@@ -200,11 +228,11 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="2418" />
-    <option name="height" value="1318" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -218,7 +246,49 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="dimon-portfolio" type="cbb8eebc:String" user="dimon-portfolio" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="dimon-portfolio" type="cbb8eebc:String" user="dimon-portfolio" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="dimon-portfolio" type="cbb8eebc:String" user="dimon-portfolio" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="assets" type="cbb8eebc:String" user="assets" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="dimon-portfolio" type="cbb8eebc:String" user="dimon-portfolio" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="assets" type="cbb8eebc:String" user="assets" />
+              <item name="images" type="cbb8eebc:String" user="images" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="dimon-portfolio" type="cbb8eebc:String" user="dimon-portfolio" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="assets" type="cbb8eebc:String" user="assets" />
+              <item name="images" type="cbb8eebc:String" user="images" />
+              <item name="works" type="cbb8eebc:String" user="works" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="dimon-portfolio" type="cbb8eebc:String" user="dimon-portfolio" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="components" type="cbb8eebc:String" user="components" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scratches">
         <subPane>
           <expand>
@@ -259,13 +329,6 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="dimon-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dimon-portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="dimon-portfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -319,7 +382,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541710982493</updated>
-      <workItem from="1541710983855" duration="29489000" />
+      <workItem from="1541710983855" duration="43554000" />
     </task>
     <task id="LOCAL-00001" summary="starting with project">
       <created>1541718593987</created>
@@ -353,7 +416,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29489000" />
+    <option name="totallyTimeSpent" value="43554000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -366,14 +429,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14823261" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35431236" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -462,14 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -513,16 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/aboutMe.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31">
@@ -539,47 +583,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/css/colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/workPlan.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/css/programs.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/programs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="28" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -594,23 +602,121 @@
     <entry file="file://$PROJECT_DIR$/src/assets/css/experience.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/programs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/workPlan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/secretContent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/css/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        <state relative-caret-position="217">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/css/colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/portfolioWorks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wildWest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="87" column="15" lean-forward="true" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/css/wild-west.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-219">
+          <caret line="82" column="21" lean-forward="true" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/css/works.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/css/media.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+        <state relative-caret-position="215">
+          <caret line="180" column="16" lean-forward="true" selection-start-line="180" selection-start-column="16" selection-end-line="180" selection-end-column="16" />
           <folding />
         </state>
       </provider>
