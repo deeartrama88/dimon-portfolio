@@ -103,6 +103,52 @@
     &__title {
       font-size: 55px;
     }
+    // works
+    .works {
+      &__fantasy {
+        &-desc {
+          background: rgba(0, 0, 0, 0.5);
+          color: $white-main;
+          font-size: 20px;
+          flex-flow: column-reverse wrap;
+          img {
+            width: 100%;
+          }
+          .desc {
+            width: 100%;
+            font-size: 25px;
+            padding: 20px;
+            box-sizing: border-box;
+          }
+        }
+        &__title {
+          font-size: 40px;
+          padding: 30px 0;
+        }
+        &-characters {
+          img {
+            width: 50%;
+            &:first-child {
+              width: 50%;
+            }
+            &:nth-child(3) {
+              width: 50%;
+            }
+          }
+        }
+
+        &-characters2 {
+          img {
+            width: 50%;
+          }
+        }
+        &-characters3 {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
   }
   .wild-west {
     &__title {

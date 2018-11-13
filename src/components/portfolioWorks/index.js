@@ -1,12 +1,15 @@
 import React, {Suspense} from 'react';
 import {Route, Switch} from 'react-router';
 import {BrowserRouter} from 'react-router-dom';
-const WildWest = React.lazy(() => import('./wildWest'));
+import Fantasy from './fantasy';
+const WildWest = React.lazy(() => import('../portfolioWorks/wildWest'));
 
 const PortfolioWorks = () => {
    return (
       <section className="works">
          <div className="works__title">Portfolio</div>
+
+         {/* section for wild-west project, bot visible by in root route */}
          <BrowserRouter>
             <Switch>
                <Route exact path="/wild-west" render={() => (
@@ -16,9 +19,8 @@ const PortfolioWorks = () => {
                )} />
             </Switch>
          </BrowserRouter>
-         <div className="works__fantasy">
-            <div className="works__fantasy__title">Characters for project in Fantasy setting</div>
-         </div>
+
+         <Fantasy />
       </section>
    )
 };

@@ -10,10 +10,72 @@
     background-size: cover;
   }
   &__fantasy {
-    background: url("../images/works/fantasy-bg.jpg") no-repeat;
-    background-size: cover;
-    border-top: 10px solid $green-main;
+    background: $gray-dark;
+    //background: url("../images/works/fantasy/fantasy-bg2.jpg") no-repeat;
+    //background-size: cover;
+    &-characters {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: center;
 
+      padding: 10px;
+      img {
+        width: 21%;
+        &:first-child {
+          width: 33%;
+        }
+        &:nth-child(3) {
+          width: 25%;
+        }
+      }
+    }
+    &-characters2, &-characters3 {
+      align-items: center;
+      background: $gray-dark;
+      padding: 10px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      border-top: 15px solid $blue-darkest;
+      img {
+        width: 25%;
+      }
+    }
+    &-characters3 {
+      img {
+        width: 50%;
+      }
+    }
+    &-many {
+      padding: 30px 0 60px;
+      background: url("../images/works/fantasy/fantasy-bg2.jpg") no-repeat;
+      background-size: cover;
+      img {
+        width: 100%;
+      }
+    }
+    &-desc {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.3);
+      img {
+        width: 60%;
+      }
+      .desc {
+        width: 40%;
+        font-size: 25px;
+        font-family: 'Sigmar', sans-serif;
+      }
+    }
+    &__title-wrap {
+      background: url("../images/works/fantasy/fantasy-bg.jpg") no-repeat;
+      background-size: cover;
+      border-top: 10px solid $green-main;
+      padding-bottom: 20px;
+    }
     &__title {
       padding: 50px 0;
       text-align: center;
@@ -21,5 +83,6 @@
       font-size: 50px;
       font-family: 'Sigmar', sans-serif;
     }
+
   }
 }

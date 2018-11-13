@@ -7,9 +7,54 @@
   background-size: cover; }
 
 .works__fantasy {
-  background: url("../images/works/fantasy-bg.jpg") no-repeat;
-  background-size: cover;
-  border-top: 10px solid #76a10f; }
+  background: #2c2c2c; }
+  .works__fantasy-characters {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; }
+    .works__fantasy-characters img {
+      width: 21%; }
+      .works__fantasy-characters img:first-child {
+        width: 33%; }
+      .works__fantasy-characters img:nth-child(3) {
+        width: 25%; }
+  .works__fantasy-characters2, .works__fantasy-characters3 {
+    align-items: center;
+    background: #2c2c2c;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border-top: 15px solid #191b1e; }
+    .works__fantasy-characters2 img, .works__fantasy-characters3 img {
+      width: 25%; }
+  .works__fantasy-characters3 img {
+    width: 50%; }
+  .works__fantasy-many {
+    padding: 30px 0 60px;
+    background: url("../images/works/fantasy/fantasy-bg2.jpg") no-repeat;
+    background-size: cover; }
+    .works__fantasy-many img {
+      width: 100%; }
+  .works__fantasy-desc {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3); }
+    .works__fantasy-desc img {
+      width: 60%; }
+    .works__fantasy-desc .desc {
+      width: 40%;
+      font-size: 25px;
+      font-family: 'Sigmar', sans-serif; }
+  .works__fantasy__title-wrap {
+    background: url("../images/works/fantasy/fantasy-bg.jpg") no-repeat;
+    background-size: cover;
+    border-top: 10px solid #76a10f;
+    padding-bottom: 20px; }
   .works__fantasy__title {
     padding: 50px 0;
     text-align: center;

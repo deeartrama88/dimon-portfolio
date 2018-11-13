@@ -48,6 +48,31 @@
     font-size: 20px; }
   .works__title {
     font-size: 55px; }
+  .works .works__fantasy-desc {
+    background: rgba(0, 0, 0, 0.5);
+    color: #EEF6F2;
+    font-size: 20px;
+    flex-flow: column-reverse wrap; }
+    .works .works__fantasy-desc img {
+      width: 100%; }
+    .works .works__fantasy-desc .desc {
+      width: 100%;
+      font-size: 25px;
+      padding: 20px;
+      box-sizing: border-box; }
+  .works .works__fantasy__title {
+    font-size: 40px;
+    padding: 30px 0; }
+  .works .works__fantasy-characters img {
+    width: 50%; }
+    .works .works__fantasy-characters img:first-child {
+      width: 50%; }
+    .works .works__fantasy-characters img:nth-child(3) {
+      width: 50%; }
+  .works .works__fantasy-characters2 img {
+    width: 50%; }
+  .works .works__fantasy-characters3 img {
+    width: 100%; }
   .wild-west__title {
     font-size: 55px;
     line-height: 65px; }

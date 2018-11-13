@@ -4,7 +4,7 @@ import AboutMe from './components/aboutMe';
 import Experience from './components/experience';
 import Programs from './components/programs';
 import WorkPlan from './components/workPlan';
-import PortfolioWorks from './components/portfolioWorks';
+import PortfolioWorks from './components/portfolioWorks/index';
 
 class App extends Component {
   render() {
