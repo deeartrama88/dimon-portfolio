@@ -1,0 +1,20 @@
+@import "colors.scss";
+
+.tanks {
+  &__title-section {
+    background: url("../images/works/tanks/tansk-title-bg.jpg") no-repeat;
+    background-size: cover;
+    color: $white-main;
+
+    &__title {
+      font-size: 50px;
+      text-align: center;
+      font-family: 'Sigmar', sans-serif;
+
+      &__desc {
+        font-family: 'Sigmar', sans-serif;
+        text-align: left;
+      }
+    }
+  }
+}

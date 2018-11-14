@@ -91,7 +91,12 @@
     text-align: center; }
   .wild-west__characters-title {
     font-size: 40px;
-    line-height: 42px; } }
+    line-height: 42px; }
+  .health-defender__title {
+    font-size: 30px;
+    margin-top: 30px; }
+    .health-defender__title-small {
+      font-size: 22px; } }
 
 @media screen and (max-width: 550px) {
   header .name .name_and_prof {
@@ -113,7 +118,14 @@
       font-size: 40px; }
   .works__fantasy__title {
     font-size: 27px;
-    padding: 20px 0; } }
+    padding: 20px 0; }
+  .health-defender__title {
+    font-size: 22px;
+    margin-top: 30px; }
+    .health-defender__title-small {
+      font-size: 14px; }
+  .health-defender .flex-container {
+    padding: 20px; } }
 
 @media screen and (max-width: 480px) {
   header .name .name_and_prof .fullName {

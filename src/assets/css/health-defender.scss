@@ -1,0 +1,44 @@
+@import "colors.scss";
+
+.health-defender {
+  border: solid $green-main;
+  border-width: 10px 0;
+  background: url("../images/works/healthDefender/big-bg.jpg") no-repeat;
+  background-size: cover;
+
+  &__title {
+    font-family: 'Sigmar', sans-serif;
+    font-size: 50px;
+    color: $blue-dark;
+    text-align: center;
+    margin-top: 30px;
+    &-small {
+      margin-bottom: 30px;
+      font-family: 'Sigmar', sans-serif;
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+  .flex-container {
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-bottom: 40px;
+    img {
+      box-shadow: 0 0 10px $blue-darkest;
+      margin: 10px auto;
+      max-width: 100%;
+      &:nth-child(2) {
+        max-width: 90%;
+      }
+      &:nth-child(3) {
+        max-width: 60%;
+      }
+      &:nth-child(4) {
+        max-width: 35%;
+      }
+    }
+  }
+}

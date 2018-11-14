@@ -186,6 +186,17 @@
       }
     }
   }
+
+  // health defender
+  .health-defender {
+    &__title {
+      font-size: 30px;
+      margin-top: 30px;
+      &-small {
+        font-size: 22px;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -229,6 +240,20 @@
         font-size: 27px;
         padding: 20px 0;
       }
+    }
+  }
+
+  // health defender
+  .health-defender {
+    &__title {
+      font-size: 22px;
+      margin-top: 30px;
+      &-small {
+        font-size: 14px;
+      }
+    }
+    .flex-container {
+      padding: 20px;
     }
   }
 }

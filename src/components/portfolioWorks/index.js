@@ -2,6 +2,9 @@ import React, {Suspense} from 'react';
 import {Route, Switch} from 'react-router';
 import {BrowserRouter} from 'react-router-dom';
 import Fantasy from './fantasy';
+import HealthDefender from './healthDefender';
+import Tanks from './tanks';
+
 const WildWest = React.lazy(() => import('../portfolioWorks/wildWest'));
 
 const PortfolioWorks = () => {
@@ -21,6 +24,9 @@ const PortfolioWorks = () => {
          </BrowserRouter>
 
          <Fantasy />
+         <HealthDefender />
+         <Tanks />
+
       </section>
    )
 };
