@@ -1,0 +1,33 @@
+.health-defender {
+  border: solid #76a10f;
+  border-width: 10px 0;
+  background: url("../images/works/healthDefender/big-bg.jpg") no-repeat;
+  background-size: cover; }
+  .health-defender__title {
+    font-family: 'Sigmar', sans-serif;
+    font-size: 50px;
+    color: #282c34;
+    text-align: center;
+    margin-top: 30px; }
+    .health-defender__title-small {
+      margin-bottom: 30px;
+      font-family: 'Sigmar', sans-serif;
+      font-size: 30px;
+      text-align: center; }
+  .health-defender .flex-container {
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-bottom: 40px; }
+    .health-defender .flex-container img {
+      box-shadow: 0 0 10px #191b1e;
+      margin: 10px auto;
+      max-width: 100%; }
+      .health-defender .flex-container img:nth-child(2) {
+        max-width: 90%; }
+      .health-defender .flex-container img:nth-child(3) {
+        max-width: 60%; }
+      .health-defender .flex-container img:nth-child(4) {
+        max-width: 35%; }

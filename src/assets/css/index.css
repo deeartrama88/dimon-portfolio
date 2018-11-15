@@ -311,14 +311,41 @@ header {
 .tanks__title-section {
   background: url("../images/works/tanks/tansk-title-bg.jpg") no-repeat;
   background-size: cover;
-  color: #EEF6F2; }
+  color: #EEF6F2;
+  padding-bottom: 30px; }
   .tanks__title-section__title {
     font-size: 50px;
     text-align: center;
     font-family: 'Sigmar', sans-serif; }
     .tanks__title-section__title__desc {
       font-family: 'Sigmar', sans-serif;
-      text-align: left; }
+      text-align: left;
+      font-size: 25px; }
+
+.tanks__works .flex-container {
+  background: url("../images/works/tanks/tansk-bg.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; }
+
+.tanks__works .big {
+  width: 32%;
+  margin: 10px 5px; }
+
+.tanks__works .medium {
+  width: 30%;
+  margin: 10px 5px; }
+
+.tanks__works .small {
+  width: 24%;
+  margin: 10px 5px; }
+
+.tanks__works .other {
+  width: 40%;
+  margin: 10px 5px; }
 
 @media screen and (max-width: 1600px) {
   header ul li {
@@ -395,6 +422,24 @@ header {
     width: 50%; }
   .works .works__fantasy-characters3 img {
     width: 100%; }
+  .works .tanks__title-section__title {
+    font-size: 30px; }
+    .works .tanks__title-section__title__desc {
+      font-size: 20px; }
+  .works .tanks__works .flex-container {
+    padding: 10px; }
+  .works .tanks__works .big {
+    width: 45%;
+    margin: 10px 5px; }
+  .works .tanks__works .medium {
+    width: 45%;
+    margin: 10px 5px; }
+  .works .tanks__works .small {
+    width: 45%;
+    margin: 10px 5px; }
+  .works .tanks__works .other {
+    width: 45%;
+    margin: 10px 5px; }
   .wild-west__title {
     font-size: 55px;
     line-height: 65px; }

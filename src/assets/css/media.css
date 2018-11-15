@@ -73,6 +73,24 @@
     width: 50%; }
   .works .works__fantasy-characters3 img {
     width: 100%; }
+  .works .tanks__title-section__title {
+    font-size: 30px; }
+    .works .tanks__title-section__title__desc {
+      font-size: 20px; }
+  .works .tanks__works .flex-container {
+    padding: 10px; }
+  .works .tanks__works .big {
+    width: 45%;
+    margin: 10px 5px; }
+  .works .tanks__works .medium {
+    width: 45%;
+    margin: 10px 5px; }
+  .works .tanks__works .small {
+    width: 45%;
+    margin: 10px 5px; }
+  .works .tanks__works .other {
+    width: 45%;
+    margin: 10px 5px; }
   .wild-west__title {
     font-size: 55px;
     line-height: 65px; }

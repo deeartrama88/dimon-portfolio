@@ -149,6 +149,38 @@
         }
       }
     }
+    // tanks
+    .tanks {
+      &__title-section {
+        &__title {
+          font-size: 30px;
+          &__desc {
+            font-size: 20px;
+          }
+        }
+      }
+      &__works {
+        .flex-container {
+          padding: 10px;
+        }
+        .big {
+          width: 45%;
+          margin: 10px 5px;
+        }
+        .medium {
+          width: 45%;
+          margin: 10px 5px;
+        }
+        .small {
+          width: 45%;
+          margin: 10px 5px;
+        }
+        .other {
+          width: 45%;
+          margin: 10px 5px;
+        }
+      }
+    }
   }
   .wild-west {
     &__title {

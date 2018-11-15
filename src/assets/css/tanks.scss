@@ -5,6 +5,7 @@
     background: url("../images/works/tanks/tansk-title-bg.jpg") no-repeat;
     background-size: cover;
     color: $white-main;
+    padding-bottom: 30px;
 
     &__title {
       font-size: 50px;
@@ -14,7 +15,35 @@
       &__desc {
         font-family: 'Sigmar', sans-serif;
         text-align: left;
+        font-size: 25px;
       }
+    }
+  }
+  &__works {
+    .flex-container {
+      background: url("../images/works/tanks/tansk-bg.jpg") no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .big {
+      width: 32%;
+      margin: 10px 5px;
+    }
+    .medium {
+      width: 30%;
+      margin: 10px 5px;
+    }
+    .small {
+      width: 24%;
+      margin: 10px 5px;
+    }
+    .other {
+      width: 40%;
+      margin: 10px 5px;
     }
   }
 }
