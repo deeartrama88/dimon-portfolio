@@ -308,44 +308,103 @@ header {
       .health-defender .flex-container img:nth-child(4) {
         max-width: 35%; }
 
-.tanks__title-section {
-  background: url("../images/works/tanks/tansk-title-bg.jpg") no-repeat;
+.tanks {
+  background: url("../images/works/tanks/tansk-bg.jpg") no-repeat;
+  background-size: cover; }
+  .tanks__title-section {
+    background: url("../images/works/tanks/tansk-title-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #EEF6F2;
+    padding-bottom: 30px; }
+    .tanks__title-section__title {
+      font-size: 50px;
+      text-align: center;
+      font-family: 'Sigmar', sans-serif; }
+      .tanks__title-section__title__desc {
+        font-family: 'Sigmar', sans-serif;
+        text-align: left;
+        font-size: 25px; }
+  .tanks__works .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; }
+  .tanks__works .big {
+    width: 32%;
+    margin: 10px 5px; }
+  .tanks__works .medium {
+    width: 30%;
+    margin: 10px 5px; }
+  .tanks__works .small {
+    width: 24%;
+    margin: 10px 5px; }
+  .tanks__works .other {
+    width: 40%;
+    margin: 10px 5px; }
+
+.sci-fi {
+  background: url("../images/works/sci-fi/bg.jpg") no-repeat;
   background-size: cover;
-  color: #EEF6F2;
-  padding-bottom: 30px; }
-  .tanks__title-section__title {
+  padding-bottom: 70px; }
+  .sci-fi__title {
     font-size: 50px;
     text-align: center;
-    font-family: 'Sigmar', sans-serif; }
-    .tanks__title-section__title__desc {
-      font-family: 'Sigmar', sans-serif;
-      text-align: left;
-      font-size: 25px; }
+    color: #EEF6F2;
+    font-family: "Sigmar", sans-serif;
+    padding: 10px 30px; }
+  .sci-fi .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #909090; }
+  .sci-fi .item {
+    width: 50%; }
+  .sci-fi .desc {
+    font-size: 40px;
+    font-family: 'Sigmar', sans-serif;
+    color: #EEF6F2;
+    padding: 0 50px;
+    box-sizing: border-box; }
 
-.tanks__works .flex-container {
-  background: url("../images/works/tanks/tansk-bg.jpg") no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 20px; }
+.works__fantasy2 {
+  background: #b8b8b8;
+  text-align: center;
+  font-family: 'Sigmar', sans-serif; }
+  .works__fantasy2 .title {
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Sigmar', sans-serif;
+    text-transform: uppercase; }
+  .works__fantasy2 .sub-title {
+    font-size: 30px; }
+  .works__fantasy2 .many_fantasy_works {
+    width: 100%; }
+  .works__fantasy2 .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; }
 
-.tanks__works .big {
-  width: 32%;
-  margin: 10px 5px; }
-
-.tanks__works .medium {
-  width: 30%;
-  margin: 10px 5px; }
-
-.tanks__works .small {
-  width: 24%;
-  margin: 10px 5px; }
-
-.tanks__works .other {
-  width: 40%;
-  margin: 10px 5px; }
+.west-set {
+  margin-top: 50px;
+  background: #b8b8b8;
+  padding-bottom: 50px; }
+  .west-set .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end; }
+  .west-set .title {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Sigmar', sans-serif;
+    padding: 30px 10px; }
+  .west-set img {
+    box-shadow: 0 0 20px #474747;
+    width: 49%; }
 
 @media screen and (max-width: 1600px) {
   header ul li {
@@ -364,6 +423,13 @@ header {
     width: 100%; }
   header .menu {
     display: none; }
+  .sci-fi__title {
+    font-size: 32px; }
+  .works__fantasy2 .title {
+    font-size: 36px;
+    padding: 10px; }
+  .west-set .title {
+    font-size: 35px; }
   .about-me {
     background-repeat: round; }
     .about-me__grid-wrap {
@@ -463,7 +529,16 @@ header {
     font-size: 30px;
     margin-top: 30px; }
     .health-defender__title-small {
-      font-size: 22px; } }
+      font-size: 22px; }
+  .sci-fi__title {
+    font-size: 20px; }
+  .sci-fi .item {
+    width: 100%; }
+  .west-set .title {
+    font-size: 25px; }
+  .west-set img {
+    width: 100%;
+    margin-bottom: 20px; } }
 
 @media screen and (max-width: 550px) {
   header .name .name_and_prof {
@@ -492,7 +567,13 @@ header {
     .health-defender__title-small {
       font-size: 14px; }
   .health-defender .flex-container {
-    padding: 20px; } }
+    padding: 20px; }
+  .works__fantasy2 .title {
+    font-size: 26px; }
+  .works__fantasy2 .sub-title {
+    font-size: 20px; }
+  .works__fantasy2 img {
+    max-width: 100%; } }
 
 @media screen and (max-width: 480px) {
   header .name .name_and_prof .fullName {
@@ -535,7 +616,10 @@ header {
       line-height: 40px; }
   .wild-west__characters-title {
     font-size: 30px;
-    line-height: 32px; } }
+    line-height: 32px; }
+  .sci-fi .desc {
+    padding: 20px 50px;
+    font-size: 16px; } }
 
 body {
   background-color: #282c34;

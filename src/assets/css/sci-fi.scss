@@ -1,0 +1,32 @@
+.sci-fi {
+  background: url("../images/works/sci-fi/bg.jpg") no-repeat;
+  background-size: cover;
+  padding-bottom: 70px;
+
+  &__title {
+    font-size: 50px;
+    text-align: center;
+    color: $white-main;
+    font-family: "Sigmar", sans-serif;
+    padding: 10px 30px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #909090;
+  }
+
+  .item {
+    width: 50%;
+  }
+  .desc {
+    font-size: 40px;
+    font-family: 'Sigmar', sans-serif;
+    color: $white-main;
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,14 @@
+.sci-fi {
+  background: url("../images/works/sci-fi/bg.jpg") no-repeat;
+  background-size: cover;
+  padding-bottom: 50px; }
+  .sci-fi .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center; }
+  .sci-fi .item {
+    width: 50%; }
+  .sci-fi .desc {
+    font-size: 40px;
+    font-family: 'Sigmar', sans-serif; }

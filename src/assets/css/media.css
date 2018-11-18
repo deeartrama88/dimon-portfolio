@@ -15,6 +15,13 @@
     width: 100%; }
   header .menu {
     display: none; }
+  .sci-fi__title {
+    font-size: 32px; }
+  .works__fantasy2 .title {
+    font-size: 36px;
+    padding: 10px; }
+  .west-set .title {
+    font-size: 35px; }
   .about-me {
     background-repeat: round; }
     .about-me__grid-wrap {
@@ -114,7 +121,16 @@
     font-size: 30px;
     margin-top: 30px; }
     .health-defender__title-small {
-      font-size: 22px; } }
+      font-size: 22px; }
+  .sci-fi__title {
+    font-size: 20px; }
+  .sci-fi .item {
+    width: 100%; }
+  .west-set .title {
+    font-size: 25px; }
+  .west-set img {
+    width: 100%;
+    margin-bottom: 20px; } }
 
 @media screen and (max-width: 550px) {
   header .name .name_and_prof {
@@ -143,7 +159,13 @@
     .health-defender__title-small {
       font-size: 14px; }
   .health-defender .flex-container {
-    padding: 20px; } }
+    padding: 20px; }
+  .works__fantasy2 .title {
+    font-size: 26px; }
+  .works__fantasy2 .sub-title {
+    font-size: 20px; }
+  .works__fantasy2 img {
+    max-width: 100%; } }
 
 @media screen and (max-width: 480px) {
   header .name .name_and_prof .fullName {
@@ -186,4 +208,7 @@
       line-height: 40px; }
   .wild-west__characters-title {
     font-size: 30px;
-    line-height: 32px; } }
+    line-height: 32px; }
+  .sci-fi .desc {
+    padding: 20px 50px;
+    font-size: 16px; } }

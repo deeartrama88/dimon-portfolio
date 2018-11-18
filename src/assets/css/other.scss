@@ -1,0 +1,49 @@
+.works__fantasy2 {
+  background: $gray-light;
+  text-align: center;
+  font-family: 'Sigmar', sans-serif;
+
+  .title {
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Sigmar', sans-serif;
+    text-transform: uppercase;
+  }
+  .sub-title {
+    font-size: 30px;
+  }
+  .many_fantasy_works {
+    width: 100%;
+  }
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+// west-set
+.west-set {
+  margin-top: 50px;
+  background: $gray-light;
+  padding-bottom: 50px;
+
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .title {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Sigmar', sans-serif;
+    padding: 30px 10px;
+  }
+  img {
+    box-shadow: 0 0 20px $gray-medium;
+    width: 49%;
+  }
+}

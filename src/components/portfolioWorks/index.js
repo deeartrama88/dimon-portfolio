@@ -4,6 +4,10 @@ import {BrowserRouter} from 'react-router-dom';
 import Fantasy from './fantasy';
 import HealthDefender from './healthDefender';
 import Tanks from './tanks';
+import SciFi from './sci-fi';
+import Fantasy2 from './fantasy2';
+import WesternSetting from "./western-setting";
+
 
 const WildWest = React.lazy(() => import('../portfolioWorks/wildWest'));
 
@@ -26,7 +30,9 @@ const PortfolioWorks = () => {
          <Fantasy />
          <HealthDefender />
          <Tanks />
-
+         <SciFi />
+         <Fantasy2 />
+         <WesternSetting />
       </section>
    )
 };

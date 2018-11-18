@@ -39,6 +39,27 @@
     }
   }
 
+  .sci-fi {
+    &__title {
+      font-size: 32px;
+    }
+  }
+
+  // FANTASY 2
+  .works__fantasy2 {
+    .title {
+      font-size: 36px;
+      padding: 10px;
+    }
+  }
+
+  // western setting
+  .west-set {
+    .title {
+      font-size: 35px;
+    }
+  }
+
   // ABOUT ME
   .about-me {
     background-repeat: round;
@@ -88,6 +109,7 @@
 }
 
 @media screen and (max-width: 700px) {
+
   .mobNewLine {
     display: block;
   }
@@ -229,6 +251,27 @@
       }
     }
   }
+
+  // sci-fi
+  .sci-fi {
+    &__title {
+      font-size: 20px;
+    }
+    .item {
+      width: 100%;
+    }
+  }
+
+  // western setting
+  .west-set {
+    .title {
+      font-size: 25px;
+    }
+    img {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -286,6 +329,19 @@
     }
     .flex-container {
       padding: 20px;
+    }
+  }
+
+  // FANTASY 2
+  .works__fantasy2 {
+    .title {
+      font-size: 26px;
+    }
+    .sub-title {
+      font-size: 20px;
+    }
+    img {
+      max-width: 100%;
     }
   }
 }
@@ -369,6 +425,14 @@
         font-size: 30px;
         line-height: 32px;
       }
+    }
+  }
+
+  // sci-fi
+  .sci-fi {
+    .desc {
+      padding: 20px 50px;
+      font-size: 16px;
     }
   }
 

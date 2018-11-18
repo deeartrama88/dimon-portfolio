@@ -1,6 +1,8 @@
 @import "colors.scss";
 
 .tanks {
+  background: url("../images/works/tanks/tansk-bg.jpg") no-repeat;
+  background-size: cover;
   &__title-section {
     background: url("../images/works/tanks/tansk-title-bg.jpg") no-repeat;
     background-size: cover;
@@ -21,8 +23,6 @@
   }
   &__works {
     .flex-container {
-      background: url("../images/works/tanks/tansk-bg.jpg") no-repeat;
-      background-size: cover;
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
