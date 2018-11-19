@@ -7,6 +7,9 @@ import Tanks from './tanks';
 import SciFi from './sci-fi';
 import Fantasy2 from './fantasy2';
 import WesternSetting from "./western-setting";
+import PunkSet from "./punk-set";
+import Moon from "./moon";
+import Freelance from "./freelance";
 
 
 const WildWest = React.lazy(() => import('../portfolioWorks/wildWest'));
@@ -16,7 +19,7 @@ const PortfolioWorks = () => {
       <section className="works">
          <div className="works__title">Portfolio</div>
 
-         {/* section for wild-west project, bot visible by in root route */}
+         {/* section for wild-west project, visible only for special route */}
          <BrowserRouter>
             <Switch>
                <Route exact path="/wild-west" render={() => (
@@ -33,6 +36,10 @@ const PortfolioWorks = () => {
          <SciFi />
          <Fantasy2 />
          <WesternSetting />
+         <PunkSet />
+         <Moon />
+         <Freelance />
+
       </section>
    )
 };

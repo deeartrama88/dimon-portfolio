@@ -5,6 +5,7 @@ import Experience from './components/experience';
 import Programs from './components/programs';
 import WorkPlan from './components/workPlan';
 import PortfolioWorks from './components/portfolioWorks/index';
+import Footer from './components/footer';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
             <Programs />
             <WorkPlan />
             <PortfolioWorks />
+            <Footer />
          </Fragment>
       </div>
     );

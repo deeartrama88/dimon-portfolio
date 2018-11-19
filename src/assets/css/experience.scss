@@ -12,8 +12,26 @@
     margin-bottom: 20px;
   }
 
+  .date {
+    font-family: 'Sigmar', sans-serif;
+    letter-spacing: 2px;
+  }
+
   &-desc {
     font-size: 28px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    padding: 15px;
+    &:nth-child(4) {
+      border-left: 10px solid #65bec1;
+      background: linear-gradient(to right, rgba(78,149,153,1) 0%,rgba(78,149,153,1) 2%,rgba(78,149,153,0) 52%);
+    }
+    &:nth-child(3) {
+      border-left: 10px solid #7d7adf;
+      background: linear-gradient(to right, rgba(92,89,165,1) 0%,rgba(92,89,165,1) 2%,rgba(92,89,165,0) 52%);
+    }
+    &:nth-child(2) {
+      border-left: 10px solid #4486c7;
+      background: linear-gradient(to right, rgba(57,107,160,1) 0%,rgba(57,107,160,1) 2%,rgba(57,107,160,0) 52%);
+    }
   }
 }

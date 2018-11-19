@@ -1,7 +1,12 @@
 import React from 'react';
 
-import AgeIcon from '../assets/images/ageIcon.png';
-import ExpIcon from '../assets/images/experienceIcon.png';
+import Exp from '../assets/images/exp.png';
+import Eng from '../assets/images/eng.png';
+import Mail from '../assets/images/mail.png';
+import Art from '../assets/images/art-station.png';
+import Location from '../assets/images/location.png';
+import Controls from '../assets/images/controls.png';
+
 
 const AboutMe = () => {
    return (
@@ -9,8 +14,8 @@ const AboutMe = () => {
          <div className="container">
             <div className="about-me__grid-wrap">
                <div className="about-me__exp">
-                  <img src={AgeIcon} alt="age"/>
-                  <img src={ExpIcon} alt="experience"/>
+                  <img src={Eng} alt="age"/>
+                  <img src={Exp} alt="experience"/>
                </div>
                <div className="about-me__about">
                   <div className="about-me__about__title">About me</div>
@@ -21,28 +26,12 @@ const AboutMe = () => {
                   <div className="about-me__about__desc"> Активно изучаю движок Unity, различные пайплайны по разработке
                      контента, интересуюсь всеми сторонами разработки игровых проектов.
                   </div>
+                  <img src={Controls} alt="controls"/>
                </div>
                <div className="about-me__contacts">
-                  <div className="about-me__contacts__lang">
-                     <span className="word">English</span>
-                     <span className="desc">(Read, write)</span>
-                     <span className="value">85/100</span>
-                  </div>
-                  <div className="about-me__contacts__lang">
-                     <span className="word">English</span>
-                     <span className="desc">(Speaking)</span>
-                     <span className="value">55/100</span>
-                  </div>
-                  <div className="about-me__contacts__info">
-                     <div className="about-me__contacts__info-title">Phone:</div>
-                     <div className="about-me__contacts__info-value">+38 050 816 4602</div>
-
-                     <div className="about-me__contacts__info-title">Location:</div>
-                     <div className="about-me__contacts__info-value">Kyiv</div>
-
-                     <div className="about-me__contacts__info-title">email:</div>
-                     <div className="about-me__contacts__info-value">lgtdimon@gmail.com</div>
-                  </div>
+                  <a href="mailto:lgtdimon@gmail.com "><img src={Mail} alt="email"/></a>
+                  <a href="https://www.artstation.com/" rel="noopener noreferrer" target="_blank"><img src={Art} alt="art station"/></a>
+                  <img src={Location} alt="location"/>
                </div>
             </div>
          </div>

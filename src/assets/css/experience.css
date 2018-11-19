@@ -8,6 +8,19 @@
     font-size: 50px;
     font-family: 'Sigmar', sans-serif;
     margin-bottom: 20px; }
+  .experience .date {
+    font-family: 'Sigmar', sans-serif;
+    letter-spacing: 2px; }
   .experience-desc {
     font-size: 28px;
-    margin-bottom: 30px; }
+    margin-bottom: 10px;
+    padding: 15px; }
+    .experience-desc:nth-child(4) {
+      border-left: 10px solid #65bec1;
+      background: linear-gradient(to right, #4e9599 0%, #4e9599 2%, rgba(78, 149, 153, 0) 52%); }
+    .experience-desc:nth-child(3) {
+      border-left: 10px solid #7d7adf;
+      background: linear-gradient(to right, #5c59a5 0%, #5c59a5 2%, rgba(92, 89, 165, 0) 52%); }
+    .experience-desc:nth-child(2) {
+      border-left: 10px solid #4486c7;
+      background: linear-gradient(to right, #396ba0 0%, #396ba0 2%, rgba(57, 107, 160, 0) 52%); }

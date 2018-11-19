@@ -60,42 +60,6 @@
     }
   }
 
-  // ABOUT ME
-  .about-me {
-    background-repeat: round;
-    &__grid-wrap {
-      grid-template-columns: auto;
-
-      img {
-        width: 170px;
-        margin: 0 0 0 50px;
-      }
-    }
-    &__exp {
-      text-align: center;
-    }
-    &__contacts {
-      &__info {
-        font-size: 25px;
-        &-title {
-          color: $green-darker;
-        }
-      }
-      &__lang {
-        .word {
-          font-size: 50px;
-        }
-        .desc {
-          font-size: 30px;
-        }
-        .value {
-          font-size: 60px;
-          line-height: 47px;
-        }
-      }
-    }
-  }
-
   // works
   .works {
     &__fantasy {
@@ -109,7 +73,70 @@
 }
 
 @media screen and (max-width: 700px) {
+  // ABOUT ME
+  .about-me {
+    &__grid-wrap {
+      grid-template-columns: auto;
 
+    }
+    &__contacts,
+    &__exp {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+  // freelance
+  .freelance {
+    &__title {
+      font-size: 30px;
+    }
+  }
+  // moon
+  .moon {
+    &__title {
+      font-size: 30px;
+    }
+    &__sub-title {
+      font-size: 20px;
+    }
+  }
+  // punk
+  .punk {
+    background: url("../images/works/punk-set/bg.jpg") no-repeat;
+    background-size: cover;
+    font-family: 'Sigmar', sans-serif;
+    padding-bottom: 100px;
+
+    &__sub-title {
+      font-size: 25px;
+    }
+
+    &__title {
+      padding: 20px 0;
+      font-size: 25px;
+      text-align: center;
+      color: $white-main;
+    }
+
+    &__wrap {
+      padding: 0 0 30px;
+      background: #939393;
+    }
+
+    &__unit_big {
+      text-align: center;
+      padding: 20px;
+      background: #7e857e;
+    }
+
+    .flex-container {
+      img {
+        width: 49%;
+      }
+    }
+  }
   .mobNewLine {
     display: block;
   }
@@ -286,24 +313,19 @@
     }
   }
   .about-me {
-    background-repeat: round;
-    &__grid-wrap {
-      grid-template-columns: auto;
+    &__about__title {
+      font-size: 45px;
     }
-    img {
-      width: 120px;
-      margin: 0 10px;
+    &__exp {
+      img {
+        width: 100%;
+        max-width: 100px;
+        margin-bottom: 20px;
+      }
     }
     &__contacts {
-      &__lang {
-        .word {
-          display: block;
-        }
-        .value {
-          float: none;
-          margin-left: 30px;
-          font-size: 40px;
-        }
+      img {
+        max-width: 60px;
       }
     }
   }

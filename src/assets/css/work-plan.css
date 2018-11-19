@@ -1,8 +1,10 @@
 .work-plan {
-  background: #c5e0bf;
+  background: url("../images/plan-bg.jpg") no-repeat;
+  background-size: cover;
   padding: 30px 0 70px;
   border: solid #76a10f;
-  border-width: 5px 0; }
+  border-width: 5px 0;
+  color: #EEF6F2; }
   .work-plan__title {
     font-family: 'Sigmar', sans-serif;
     font-size: 50px; }
