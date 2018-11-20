@@ -26,7 +26,6 @@ const Header = () => {
                <li>Experience</li>
                <li>Portfolio</li>
                <li>My work</li>
-               <li className="sendMessage">Send Message</li>
             </ul>
          </div>
       </header>

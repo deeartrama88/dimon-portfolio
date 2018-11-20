@@ -30,7 +30,7 @@ const AboutMe = () => {
                </div>
                <div className="about-me__contacts">
                   <a href="mailto:lgtdimon@gmail.com "><img src={Mail} alt="email"/></a>
-                  <a href="https://www.artstation.com/" rel="noopener noreferrer" target="_blank"><img src={Art} alt="art station"/></a>
+                  <a href="https://dmitrytarasenko.artstation.com/" rel="noopener noreferrer" target="_blank"><img src={Art} alt="art station"/></a>
                   <img src={Location} alt="location"/>
                </div>
             </div>
