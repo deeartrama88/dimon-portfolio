@@ -54,28 +54,31 @@
       width: 35%; }
   .wild-west__icons {
     background: #b8b8b8;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
     border-bottom: 10px solid #76a10f; }
+    .wild-west__icons-item {
+      font-size: 50px;
+      font-family: 'Sigmar', sans-serif;
+      text-align: center; }
+    .wild-west__icons .slider-item {
+      text-align: center; }
+      .wild-west__icons .slider-item img {
+        display: inline-block; }
     .wild-west__icons .flex-container {
       display: flex;
       flex-flow: row wrap;
       justify-content: space-between;
       align-items: center; }
-    .wild-west__icons-item {
-      min-width: 200px;
-      width: 19%; }
-      .wild-west__icons-item:first-child {
-        width: 40%;
-        font-size: 50px;
-        font-family: 'Sigmar', sans-serif;
-        min-width: auto; }
   .wild-west__characters {
     padding-bottom: 30px;
     background: #474747; }
     .wild-west__characters .slick-dots li button:before {
       color: white; }
     .wild-west__characters .slick-prev:before, .wild-west__characters .slick-next:before {
-      font-size: 30px; }
+      font-size: 50px;
+      position: relative;
+      bottom: 13px;
+      right: 15px; }
     .wild-west__characters .slick-center {
       background: rgba(0, 0, 0, 0.1);
       transition: all 0.2s; }
@@ -84,8 +87,11 @@
     .wild-west__characters .slider-item {
       height: 400px;
       position: relative;
-      padding: 50px;
+      padding: 60px;
       box-sizing: border-box; }
+      @media (max-width: 900px) {
+        .wild-west__characters .slider-item {
+          padding: 20px; } }
       .wild-west__characters .slider-item img {
         height: 100%;
         margin: auto; }

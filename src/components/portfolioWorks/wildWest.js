@@ -65,63 +65,97 @@ const WildWest = () => {
             </div>
          </div>
          <div className="wild-west__icons">
-            <div className="flex-container container">
+            <div className="container">
                <div className="wild-west__icons-item">Render 3d models for icons.</div>
-               <img className="wild-west__icons-item" src={Icon1} alt="icon"/>
-               <img className="wild-west__icons-item" src={Icon2} alt="icon"/>
-               <img className="wild-west__icons-item" src={Icon3} alt="icon"/>
-               <img className="wild-west__icons-item" src={Icon4} alt="icon"/>
-               <img className="wild-west__icons-item" src={Icon5} alt="icon"/>
-               <img className="wild-west__icons-item" src={Icon6} alt="icon"/>
-               <img className="wild-west__icons-item" src={Icon7} alt="icon"/>
-               <img className="wild-west__icons-item" src={Icon8} alt="icon"/>
-               <img className="wild-west__icons-item" src={Icon9} alt="icon"/>
-               <img className="wild-west__icons-item" src={Icon10} alt="icon"/>
-               <img className="wild-west__icons-item" src={Icon11} alt="icon"/>
-               <img className="wild-west__icons-item" src={Icon12} alt="icon"/>
-               <img className="wild-west__icons-item" src={Icon13} alt="icon"/>
-               <img className="wild-west__icons-item" src={Icon14} alt="icon"/>
-               <img className="wild-west__icons-item" src={Icon15} alt="icon"/>
-               <img className="wild-west__icons-item" src={Icon16} alt="icon"/>
-               <img className="wild-west__icons-item" src={Icon17} alt="icon"/>
-               <img className="wild-west__icons-item" src={Icon18} alt="icon"/>
+               <div className="slider--wrapper">
+                  <Slider
+                     centerMode={false}
+                     dots={true}
+                     infinite={true}
+                     speed={500}
+                     slidesToShow={5}
+                     slidesToScroll={1}
+                     responsive={[
+                        {
+                           breakpoint: 900,
+                           settings: {
+                              slidesToShow: 3,
+                           }
+                        },
+                        {
+                           breakpoint: 520,
+                           settings: {
+                              slidesToShow: 1,
+                           }
+                        }]}
+                  >
+                        <img className="wild-west__icons-item" src={Icon1} alt="icon"/>
+                        <img className="wild-west__icons-item" src={Icon2} alt="icon"/>
+                        <img className="wild-west__icons-item" src={Icon3} alt="icon"/>
+                        <img className="wild-west__icons-item" src={Icon4} alt="icon"/>
+                        <img className="wild-west__icons-item" src={Icon5} alt="icon"/>
+                        <img className="wild-west__icons-item" src={Icon6} alt="icon"/>
+                        <img className="wild-west__icons-item" src={Icon7} alt="icon"/>
+                        <img className="wild-west__icons-item" src={Icon8} alt="icon"/>
+                        <img className="wild-west__icons-item" src={Icon9} alt="icon"/>
+                        <img className="wild-west__icons-item" src={Icon10} alt="icon"/>
+                        <img className="wild-west__icons-item" src={Icon11} alt="icon"/>
+                        <img className="wild-west__icons-item" src={Icon12} alt="icon"/>
+                        <img className="wild-west__icons-item" src={Icon13} alt="icon"/>
+                        <img className="wild-west__icons-item" src={Icon14} alt="icon"/>
+                        <img className="wild-west__icons-item" src={Icon15} alt="icon"/>
+                        <img className="wild-west__icons-item" src={Icon16} alt="icon"/>
+                        <img className="wild-west__icons-item" src={Icon17} alt="icon"/>
+                        <img className="wild-west__icons-item" src={Icon18} alt="icon"/>
+                  </Slider>
+               </div>
             </div>
          </div>
 
          <div className="wild-west__characters">
             <div className="container">
                <div className="wild-west__characters-title">Low Poly characters, diffuse only</div>
-               <Slider
-                  centerMode={true}
-                  centerPadding={'60px'}
-                  dots={true}
-                  infinite={true}
-                  speed={500}
-                  slidesToShow={3}
-                  slidesToScroll={1}
-               >
-                  <div className={'slider-item'}>
-                     <img src={Indiane} alt="carousel image"/>
-                  </div>
-                  <div className={'slider-item'}>
-                     <img src={Jenifer} alt="carousel image"/>
-                  </div>
-                  <div className={'slider-item'}>
-                     <img src={Mexican} alt="carousel image"/>
-                  </div>
-                  <div className={'slider-item'}>
-                     <img src={Niger} alt="carousel image"/>
-                  </div>
-                  <div className={'slider-item'}>
-                     <img src={Preacher} alt="carousel image"/>
-                  </div>
-                  <div className={'slider-item'}>
-                     <img src={Teenager} alt="carousel image"/>
-                  </div>
-                  <div className={'slider-item'}>
-                     <img src={YoungMan} alt="carousel image"/>
-                  </div>
-               </Slider>
+               <div className="slider--wrapper">
+                  <Slider
+                     centerMode={true}
+                     dots={true}
+                     infinite={true}
+                     speed={500}
+                     slidesToShow={3}
+                     slidesToScroll={1}
+                     responsive={[
+                        {
+                           breakpoint: 900,
+                           settings: {
+                              slidesToShow: 1,
+                              slidesToScroll: 1,
+                              centerMode: false,
+                           }
+                        }]}
+                  >
+                     <div className={'slider-item'}>
+                        <img src={Indiane} alt="carousel image"/>
+                     </div>
+                     <div className={'slider-item'}>
+                        <img src={Jenifer} alt="carousel image"/>
+                     </div>
+                     <div className={'slider-item'}>
+                        <img src={Mexican} alt="carousel image"/>
+                     </div>
+                     <div className={'slider-item'}>
+                        <img src={Niger} alt="carousel image"/>
+                     </div>
+                     <div className={'slider-item'}>
+                        <img src={Preacher} alt="carousel image"/>
+                     </div>
+                     <div className={'slider-item'}>
+                        <img src={Teenager} alt="carousel image"/>
+                     </div>
+                     <div className={'slider-item'}>
+                        <img src={YoungMan} alt="carousel image"/>
+                     </div>
+                  </Slider>
+               </div>
             </div>
          </div>
 
