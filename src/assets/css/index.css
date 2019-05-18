@@ -6,17 +6,22 @@
 header {
   display: flex;
   font-family: 'Sigmar', sans-serif;
-  color: white; }
+  color: white;
+  background: #ffffff; }
   header .name {
     display: flex;
-    width: 50%; }
+    width: 60%; }
     header .name .name_and_prof {
       display: inline-block;
       margin: 0 0 0 20px; }
       header .name .name_and_prof .fullName {
-        font-size: 50px; }
+        font-size: 50px;
+        color: #313131; }
       header .name .name_and_prof .prof {
-        font-size: 30px; }
+        font-size: 21px;
+        color: #557789; }
+        header .name .name_and_prof .prof span {
+          color: #76a10f; }
   header ul {
     display: flex;
     justify-content: space-around;
@@ -24,18 +29,25 @@ header {
     header ul li {
       font-family: 'Burbank', sans-serif;
       cursor: pointer;
-      padding: 4px;
-      font-size: 26px;
+      font-size: 35px;
       letter-spacing: 2px;
-      margin: 0 10px; }
+      margin: 0 10px;
+      color: #313131; }
       header ul li:hover {
         border-bottom: 4px solid #6c8e66; }
       header ul li.selected {
         border-bottom: 4px solid #76a10f; }
   header .menu {
-    width: 50%;
+    width: 40%;
     font-family: 'Sigmar', sans-serif;
-    padding-top: 17px; }
+    padding-top: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    header .menu ul {
+      display: flex;
+      width: 100%;
+      justify-content: space-around; }
 
 .sendMessage {
   padding: 10px 14px;
@@ -498,14 +510,6 @@ header {
     grid-column-start: 1;
     grid-column-end: 4; }
 
-@media screen and (max-width: 1600px) {
-  header ul li {
-    font-size: 20px; }
-  header .name .name_and_prof .fullName {
-    font-size: 40px; }
-  header .name .name_and_prof .prof {
-    font-size: 20px; } }
-
 @media screen and (max-width: 1300px) {
   .programs__flex-container {
     grid-template-columns: auto auto auto auto; } }
@@ -681,7 +685,7 @@ header {
     font-size: 29px;
     line-height: 40px; }
   header .name .name_and_prof .prof {
-    font-size: 16px; }
+    font-size: 11px; }
   .avatar {
     width: 130px;
     height: 130px; }
@@ -760,3 +764,6 @@ footer {
 .slider--wrapper {
   box-sizing: border-box;
   padding: 0 50px; }
+
+.fullName {
+  color: #1d1d1d; }

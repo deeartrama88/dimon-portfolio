@@ -1,24 +1,4 @@
 @import "colors.scss";
-@media screen and (max-width: 1600px) {
-  header {
-    ul {
-      li {
-        font-size: 20px;
-      }
-    }
-    .name {
-      .name_and_prof {
-        .fullName {
-          font-size: 40px;
-        }
-
-        .prof {
-          font-size: 20px;
-        }
-      }
-    }
-  }
-}
 
 @media screen and (max-width: 1300px) {
   .programs {
@@ -377,7 +357,7 @@
           line-height: 40px;
         }
         .prof {
-          font-size: 16px;
+          font-size: 11px;
         }
       }
     }

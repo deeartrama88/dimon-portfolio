@@ -5,19 +5,24 @@ header {
   display: flex;
   font-family: 'Sigmar', sans-serif;
   color: white;
-
+  background: #ffffff;
   .name {
     display: flex;
-    width: 50%;
+    width: 60%;
     .name_and_prof {
       display: inline-block;
       margin: 0 0 0 20px;
 
       .fullName {
         font-size: 50px;
+        color: #313131;
       }
       .prof {
-        font-size: 30px;
+        font-size: 21px;
+        color: #557789;
+        span {
+          color: $green-main;
+        }
       }
     }
 
@@ -30,10 +35,10 @@ header {
     li {
       font-family: 'Burbank', sans-serif;
       cursor: pointer;
-      padding: 4px;
-      font-size: 26px;
+      font-size: 35px;
       letter-spacing: 2px;
       margin: 0 10px;
+      color: #313131;
       &:hover {
         border-bottom: 4px solid #6c8e66;
       }
@@ -44,9 +49,17 @@ header {
     }
   }
   .menu {
-    width: 50%;
+    width: 40%;
     font-family: 'Sigmar', sans-serif;
     padding-top: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    ul {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+    }
   }
 
 }
