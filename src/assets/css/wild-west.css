@@ -70,9 +70,25 @@
         font-family: 'Sigmar', sans-serif;
         min-width: auto; }
   .wild-west__characters {
+    padding-bottom: 30px;
     background: #474747; }
-    .wild-west__characters img {
-      width: 100%; }
+    .wild-west__characters .slick-dots li button:before {
+      color: white; }
+    .wild-west__characters .slick-prev:before, .wild-west__characters .slick-next:before {
+      font-size: 30px; }
+    .wild-west__characters .slick-center {
+      background: rgba(0, 0, 0, 0.1);
+      transition: all 0.2s; }
+      .wild-west__characters .slick-center .slider-item {
+        padding: 15px; }
+    .wild-west__characters .slider-item {
+      height: 400px;
+      position: relative;
+      padding: 50px;
+      box-sizing: border-box; }
+      .wild-west__characters .slider-item img {
+        height: 100%;
+        margin: auto; }
     .wild-west__characters-title {
       font-size: 50px;
       line-height: 55px;

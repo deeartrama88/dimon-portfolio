@@ -91,10 +91,31 @@
     }
   }
   &__characters {
-    background: $gray-medium;
-    img {
-      width: 100%;
+    padding-bottom: 30px;
+    .slick-dots li button:before {
+      color: white;
     }
+    .slick-prev:before, .slick-next:before {
+      font-size: 30px;
+    }
+    .slick-center {
+      background: rgba(0, 0, 0, 0.1);
+      transition: all 0.2s;
+      .slider-item {
+        padding: 15px;
+      }
+    }
+    .slider-item {
+      height: 400px;
+      position: relative;
+      padding: 50px;
+      box-sizing: border-box;
+      img {
+        height: 100%;
+        margin: auto;
+      }
+    }
+    background: $gray-medium;
     &-title {
       font-size: 50px;
       line-height: 55px;

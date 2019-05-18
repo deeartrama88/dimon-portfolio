@@ -1,4 +1,5 @@
 import React from 'react';
+import Slider from 'react-slick';
 import Scene1 from '../../assets/images/works/wild-west-scene-1.jpg';
 import Scene2 from '../../assets/images/works/wild-west-scene-2.jpg';
 import Scene3 from '../../assets/images/works/wild-west-scene-3.jpg';
@@ -23,6 +24,13 @@ import Icon16 from '../../assets/images/works/icon-16.png';
 import Icon17 from '../../assets/images/works/icon-17.png';
 import Icon18 from '../../assets/images/works/icon-18.png';
 import Characters from '../../assets/images/works/wild-west-characters.jpg';
+import Indiane from '../../assets/images/works/west-set/Indiane.png';
+import Jenifer from '../../assets/images/works/west-set/Jenifer.png';
+import Mexican from '../../assets/images/works/west-set/Mexican.png';
+import Niger from '../../assets/images/works/west-set/Niger.png';
+import Preacher from '../../assets/images/works/west-set/Preacher.png';
+import Teenager from '../../assets/images/works/west-set/Teenager.png';
+import YoungMan from '../../assets/images/works/west-set/YoungMan.png';
 
 const WildWest = () => {
    return (
@@ -83,7 +91,37 @@ const WildWest = () => {
          <div className="wild-west__characters">
             <div className="container">
                <div className="wild-west__characters-title">Low Poly characters, diffuse only</div>
-               <img src={Characters} alt="characters preview"/>
+               <Slider
+                  centerMode={true}
+                  centerPadding={'60px'}
+                  dots={true}
+                  infinite={true}
+                  speed={500}
+                  slidesToShow={3}
+                  slidesToScroll={1}
+               >
+                  <div className={'slider-item'}>
+                     <img src={Indiane} alt="carousel image"/>
+                  </div>
+                  <div className={'slider-item'}>
+                     <img src={Jenifer} alt="carousel image"/>
+                  </div>
+                  <div className={'slider-item'}>
+                     <img src={Mexican} alt="carousel image"/>
+                  </div>
+                  <div className={'slider-item'}>
+                     <img src={Niger} alt="carousel image"/>
+                  </div>
+                  <div className={'slider-item'}>
+                     <img src={Preacher} alt="carousel image"/>
+                  </div>
+                  <div className={'slider-item'}>
+                     <img src={Teenager} alt="carousel image"/>
+                  </div>
+                  <div className={'slider-item'}>
+                     <img src={YoungMan} alt="carousel image"/>
+                  </div>
+               </Slider>
             </div>
          </div>
 
