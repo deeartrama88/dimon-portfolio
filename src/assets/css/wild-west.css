@@ -70,7 +70,6 @@
       justify-content: space-between;
       align-items: center; }
   .wild-west__characters {
-    padding-bottom: 30px;
     background: #474747; }
     .wild-west__characters .slick-dots li button:before {
       color: white; }
@@ -102,3 +101,9 @@
       font-family: 'Sigmar', sans-serif;
       color: #EEF6F2;
       padding: 20px 0; }
+
+.wild-west__model {
+  text-align: center; }
+
+.sketchfab-embed-wrapper {
+  padding-top: 20px; }

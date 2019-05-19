@@ -92,7 +92,6 @@
     }
   }
   &__characters {
-    padding-bottom: 30px;
     .slick-dots li button:before {
       color: white;
     }
@@ -132,4 +131,10 @@
       padding: 20px 0;
     }
   }
+}
+.wild-west__model {
+  text-align: center;
+}
+.sketchfab-embed-wrapper {
+  padding-top: 20px;
 }
