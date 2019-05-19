@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
-import Scene1 from '../../assets/images/works/wild-west-scene-1.jpg';
-import Scene2 from '../../assets/images/works/wild-west-scene-2.jpg';
-import Scene3 from '../../assets/images/works/wild-west-scene-3.jpg';
 import Weapon1 from '../../assets/images/works/wild-west-weapost-1.jpg';
 import Weapon2 from '../../assets/images/works/wild-west-weapost-2.jpg';
 import Icon1 from '../../assets/images/works/icon-1.png';
@@ -30,6 +27,11 @@ import Niger from '../../assets/images/works/west-set/Niger.png';
 import Preacher from '../../assets/images/works/west-set/Preacher.png';
 import Teenager from '../../assets/images/works/west-set/Teenager.png';
 import YoungMan from '../../assets/images/works/west-set/YoungMan.png';
+import Level1 from '../../assets/images/works/west-set/levelPrototypes/Unity_level_prototype1.png'
+import Level2 from '../../assets/images/works/west-set/levelPrototypes/Unity_level_prototype2.png'
+import Level3 from '../../assets/images/works/west-set/levelPrototypes/Unity_level_prototype3.png'
+import Level4 from '../../assets/images/works/west-set/levelPrototypes/Unity_level_prototype4.png'
+import Level5 from '../../assets/images/works/west-set/levelPrototypes/Unity_level_prototype5.png'
 
 class WildWest extends Component {
    constructor(props) {
@@ -38,7 +40,6 @@ class WildWest extends Component {
          modelWidth: this.getResponsiveSize().width,
          modelHeight: this.getResponsiveSize().height,
       };
-      console.log(window.innerWidth);
    }
 
    getResponsiveSize = () => {
@@ -70,15 +71,24 @@ class WildWest extends Component {
                         content, scene creating, assets and shaders setup, character
                         animations setup(state machine)
                      </div>
-                     <img src={Scene1} alt="scene screen shot"/>
-                     <img src={Scene2} alt="scene screen shot"/>
+                     <div className="title">Scene Prototypes</div>
+                     <div className="slider--wrapper">
+                        <Slider
+                           dots={true}
+                           autoplay={true}
+                           infinite={true}
+                           speed={1000}
+                           slidesToShow={1}
+                           slidesToScroll={1}
+                        >
+                           <img className="wild-west__icons-item" src={Level1} alt="level"/>
+                           <img className="wild-west__icons-item" src={Level3} alt="level"/>
+                           <img className="wild-west__icons-item" src={Level2} alt="level"/>
+                           <img className="wild-west__icons-item" src={Level4} alt="level"/>
+                           <img className="wild-west__icons-item" src={Level5} alt="level"/>
+                        </Slider>
+                     </div>
                   </div>
-               </div>
-
-            </div>
-            <div className="wild-west__scenes-two">
-               <div className="container">
-                  <img src={Scene3} alt="scene screen shot"/>
                </div>
             </div>
             <div className="wild-west__weapons">

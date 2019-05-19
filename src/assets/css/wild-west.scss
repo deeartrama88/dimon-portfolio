@@ -12,35 +12,28 @@
     padding: 20px 0;
     line-height: 80px;
   }
-  &__scenes-two {
-    background: $gray-light;
-    padding-top: 10px;
-    border-bottom: 10px solid $green-main;
-    img {
-      width: 100%;
-      vertical-align: bottom;
-    }
-  }
   &__scenes-one {
     background: $gray-medium;
     padding-bottom: 10px;
-    img  {
-      width: 49%;
-      height: auto;
+    .slick-dots li button:before {
+      color: #ffffff;
     }
-    .flex-wrap {
-      align-items: flex-end;
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: space-between;
+    .title {
+      font-size: 40px;
+      text-align: center;
+      color: #ffffff;
+      font-family: "Sigmar", sans-serif;
+      padding-bottom: 30px;
     }
   }
   &__desc {
     color: $white-main;
     font-size: 30px;
     font-family: 'Sigmar', sans-serif;
-    margin: 25px 0;
+    margin: 0 0 25px;
     line-height: 35px;
+    padding: 20px 0 20px;
+    border-bottom: 10px solid $green-main;
   }
   &__weapons {
     .flex-container {
