@@ -401,6 +401,9 @@ header {
     padding: 0 50px;
     box-sizing: border-box; }
 
+.works__fantasy .slick-dots li button:before {
+  color: #ffffff; }
+
 .works__fantasy2 {
   background: #b8b8b8;
   text-align: center;

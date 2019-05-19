@@ -1,16 +1,10 @@
 import React, {PureComponent} from 'react';
+import Slider from 'react-slick';
 import Fantasy1 from '../../assets/images/works/fantasy/fantasy-1.png';
-import FantasyCharacter1 from '../../assets/images/works/fantasy/fantasy-character-1.jpg';
-import FantasyCharacter2 from '../../assets/images/works/fantasy/fantasy-character-2.jpg';
-import FantasyCharacter3 from '../../assets/images/works/fantasy/fantasy-character-3.jpg';
-import FantasyCharacter4 from '../../assets/images/works/fantasy/fantasy-character-4.jpg';
-import FantasyCharacter5 from '../../assets/images/works/fantasy/fantasy-character-5.jpg';
-import FantasyCharacter6 from '../../assets/images/works/fantasy/fantasy-character-6.jpg';
-import FantasyCharacter7 from '../../assets/images/works/fantasy/fantasy-character-7.jpg';
-import FantasyCharacter8 from '../../assets/images/works/fantasy/fantasy-character-8.jpg';
-import FantasyCharacter9 from '../../assets/images/works/fantasy/fantasy-character-9.jpg';
-import FantasyCharacter10 from '../../assets/images/works/fantasy/fantasy-character-10.jpg';
 import FantasyMany from '../../assets/images/works/fantasy/fantasy-many-small.jpg';
+import Sculpt1 from '../../assets/images/works/fantasy/Sculpts_1.png';
+import Sculpt2 from '../../assets/images/works/fantasy/Sculpts_2.png';
+import Sculpt3 from '../../assets/images/works/fantasy/Sculpts_3.png';
 
 class Fantasy extends PureComponent {
    render() {
@@ -28,22 +22,18 @@ class Fantasy extends PureComponent {
                </div>
             </div>
             <div className="container">
-               <div className="works__fantasy-characters">
-                  <img src={FantasyCharacter4} alt="character"/>
-                  <img src={FantasyCharacter2} alt="character"/>
-                  <img src={FantasyCharacter3} alt="character"/>
-                  <img src={FantasyCharacter1} alt="character"/>
+               <div className="slider--wrapper">
+                  <Slider
+                     dots={true}
+                     slidesToShow={1}
+                     slidesToScroll={1}
+                  >
+                     <img src={Sculpt1} alt="sculpt" />
+                     <img src={Sculpt2} alt="sculpt" />
+                     <img src={Sculpt3} alt="sculpt" />
+                  </Slider>
                </div>
-               <div className="works__fantasy-characters2">
-                  <img src={FantasyCharacter5} alt="character"/>
-                  <img src={FantasyCharacter6} alt="character"/>
-                  <img src={FantasyCharacter7} alt="character"/>
-                  <img src={FantasyCharacter8} alt="character"/>
-               </div>
-               <div className="works__fantasy-characters3">
-                  <img src={FantasyCharacter9} alt="character"/>
-                  <img src={FantasyCharacter10} alt="character"/>
-               </div>
+
             </div>
             <div className="works__fantasy-many">
                   <img src={FantasyMany} alt="fantasy"/>
