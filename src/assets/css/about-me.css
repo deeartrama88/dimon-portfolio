@@ -4,22 +4,58 @@
   border: solid #76a10f;
   border-width: 4px 0 4px 0;
   color: #EEF6F2; }
-  .about-me__grid-wrap {
-    display: grid;
-    grid-template-columns: 150px 1fr 150px;
-    grid-column-gap: 20px;
-    padding: 20px; }
+  .about-me__experience {
+    background: url("../images/aboutBg/about-bg7.jpg");
+    background-size: cover;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-family: 'Sigmar', sans-serif;
+    padding: 30px 0; }
+    .about-me__experience .item {
+      color: white;
+      text-align: center; }
+  .about-me__looking-for {
+    color: #2c2c2c;
+    background: white;
+    box-shadow: 0 0 30px inset grey; }
+    .about-me__looking-for__text {
+      padding: 20px 0 0;
+      font-weight: bold; }
+  .about-me__wrap {
+    display: block;
+    font-size: 36px; }
+  .about-me__title {
+    font-size: 50px;
+    font-family: 'Sigmar', sans-serif;
+    text-align: center; }
+  .about-me__block {
+    background: url("../images/aboutBg/about-bg1.jpg") no-repeat;
+    background-size: cover;
+    padding: 30px 0; }
+    .about-me__block.two {
+      background: url("../images/aboutBg/about-bg2.jpg") no-repeat;
+      background-size: cover; }
   .about-me img {
     width: 100%;
-    max-width: 120px;
-    margin-bottom: 50px; }
+    max-width: 120px; }
   .about-me__about img {
     max-width: 100%; }
-  .about-me__about__title {
-    font-size: 50px;
-    font-family: 'Sigmar', sans-serif; }
   .about-me__about__desc {
     font-size: 24px;
     margin-bottom: 20px; }
-  .about-me__contacts img {
-    max-width: 100px; }
+  .about-me__contacts {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 20px 200px; }
+    .about-me__contacts img {
+      max-width: 100px; }
+  .about-me a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Sigmar', sans-serif;
+    color: #475ba1; }
+    .about-me a span {
+      display: block; }

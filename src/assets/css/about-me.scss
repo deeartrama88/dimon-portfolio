@@ -5,27 +5,54 @@
   border: solid $green-main;
   border-width: 4px 0 4px 0;
   color: $white-main;
-  &__grid-wrap {
-    display: grid;
-    grid-template-columns: 150px 1fr 150px;
-    grid-column-gap: 20px;
-    padding: 20px;
+  &__experience {
+    background: url("../images/aboutBg/about-bg7.jpg");
+    background-size: cover;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-family: 'Sigmar', sans-serif;
+    padding: 30px 0;
+    .item {
+      color: white;
+      text-align: center;
+    }
   }
-
+  &__looking-for {
+    color: $gray-dark;
+    background: white;
+    box-shadow: 0 0 30px inset grey;
+    &__text {
+      padding: 20px 0 0;
+      font-weight: bold;
+    }
+  }
+  &__wrap {
+    display: block;
+    font-size: 36px;
+  }
+  &__title {
+    font-size: 50px;
+    font-family: 'Sigmar', sans-serif;
+    text-align: center;
+  }
+  &__block {
+    background: url("../images/aboutBg/about-bg1.jpg") no-repeat;
+    background-size: cover;
+    padding: 30px 0;
+    &.two {
+      background: url("../images/aboutBg/about-bg2.jpg") no-repeat;
+      background-size: cover;
+    }
+  }
   img {
     width: 100%;
     max-width: 120px;
-    margin-bottom: 50px;
   }
   &__about {
     img {
       max-width: 100%;
     }
-    &__title {
-      font-size: 50px;
-      font-family: 'Sigmar', sans-serif;
-    }
-
     &__desc {
       font-size: 24px;
       margin-bottom: 20px;
@@ -33,8 +60,22 @@
   }
 
   &__contacts {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 20px 200px;
       img {
         max-width: 100px;
+      }
+    }
+    a {
+      text-decoration: none;
+      text-align: center;
+      font-family: 'Sigmar', sans-serif;
+      color: #475ba1;
+      span {
+        display: block;
       }
     }
 }

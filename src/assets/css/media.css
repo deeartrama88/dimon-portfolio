@@ -16,16 +16,27 @@
     font-size: 35px; }
   .works__fantasy__title {
     font-size: 40px;
-    padding: 30px 0; } }
+    padding: 30px 0; }
+  .about-me__contacts {
+    padding: 20px 20px; }
+    .about-me__contacts a {
+      font-size: 23px; } }
 
 @media screen and (max-width: 700px) {
+  .about-me__block {
+    font-size: 25px; }
   .about-me__grid-wrap {
     grid-template-columns: auto; }
-  .about-me__contacts, .about-me__exp {
+  .about-me__contacts {
+    display: block;
+    text-align: center; }
+  .about-me__exp {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center; }
+  .about-me__experience {
+    font-size: 20px; }
   .freelance__title {
     font-size: 30px; }
   .moon__title {

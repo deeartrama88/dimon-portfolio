@@ -6,20 +6,29 @@ const Experience = () => {
          <div className="container">
             <div className="experience-title">Experience</div>
             <div className="experience-desc">
-               <span className="date">02.2013 - 09.2014</span> - Работал фрилансером как 3d artist, в основном
-               моделирование и текстурирование персонажей.
+               <span className="date">02.2013 - 09.2014</span>
+               <span className="text">
+                  Worked as a freelancer, modelling and texturing.
+               </span>
             </div>
             <div className="experience-desc">
-               <span className="date">09.2014 - 01.2017</span> - Работал в компании Enixan как 3d generalist,
-               занимался созданием контента для игр в соц. сетях. Персонажи,
-               пропсы, здания, анимация, vfx. Последний год работал в качестве
-               Lead 3d artist
+               <span className="date">09.2014 - 01.2017</span>
+               <span className="text">
+                  Worked at Enixan as a 3d generalist, was engaged in the creation of
+                  content for many games. Characters, props, buildings, environment.
+                  Full circle of creation models. Modelling, texturing, rig, animation, vfx.
+                  Last year worked as a Lead 3d artist
+               </span>
             </div>
             <div className="experience-desc">
-               <span className="date">01.2017 - 01.2019</span> - Работал в инди команде над мобильным проектом,
-               занимался созданием и оптимизацией 3d контента, персонажи(+ риг и анимация),
-               пропсы, окружение, настройка ассетов в редакторе Unity, создание сцен и
-               локаций внутри движка. Настройка анимаций через state machine.
+               <span className="date">01.2017 - 01.2019</span>
+               <span className="text">
+                  Working in small indie studio on a mobile project. I create and
+                  optimize all 3d and partly 2d content in the game. Design, modelling,
+                  texturing, rig, animations and vfx. Location prototyping, assets
+                  integration to Unity, working with animation state machine, creating
+                  shaders and vfx, writing simple scripts on c#.
+               </span>
             </div>
          </div>
       </section>

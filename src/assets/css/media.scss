@@ -50,21 +50,40 @@
     }
   }
 
+  // about me
+  .about-me {
+    &__contacts {
+      padding: 20px 20px;
+      a {
+        font-size: 23px;
+      }
+    }
+  }
+
 }
 
 @media screen and (max-width: 700px) {
   // ABOUT ME
   .about-me {
+    &__block {
+      font-size: 25px;
+    }
     &__grid-wrap {
       grid-template-columns: auto;
 
     }
-    &__contacts,
+    &__contacts {
+      display: block;
+      text-align: center;
+    }
     &__exp {
       display: flex;
       flex-flow: row wrap;
       justify-content: space-around;
       align-items: center;
+    }
+    &__experience {
+      font-size: 20px;
     }
   }
   // freelance

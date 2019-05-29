@@ -10,7 +10,10 @@
     margin-bottom: 20px; }
   .experience .date {
     font-family: 'Sigmar', sans-serif;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    display: block; }
+  .experience .text {
+    display: block; }
   .experience-desc {
     font-size: 28px;
     margin-bottom: 10px;
