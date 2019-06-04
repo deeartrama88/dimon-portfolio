@@ -1,9 +1,6 @@
 import React, {PureComponent} from 'react';
-import HD1 from '../../assets/images/works/healthDefender/health-defender-1.jpg';
-import HD2 from '../../assets/images/works/healthDefender/health-defender-2.jpg';
-import HD3 from '../../assets/images/works/healthDefender/health-defender-3.jpg';
-import HD4 from '../../assets/images/works/healthDefender/health-defender-4.jpg';
-import HD5 from '../../assets/images/works/healthDefender/health-defender-5.jpg';
+import HD1 from '../../assets/images/works/healthDefender/RiseOfAI_1.png';
+import HD2 from '../../assets/images/works/healthDefender/RiseOfAI_2.png';
 
 class HealthDefender extends PureComponent {
    render() {
@@ -14,9 +11,6 @@ class HealthDefender extends PureComponent {
             <div className="container flex-container">
                <img src={HD1} alt="health defender"/>
                <img src={HD2} alt="health defender"/>
-               <img src={HD3} alt="health defender"/>
-               <img src={HD4} alt="health defender"/>
-               <img src={HD5} alt="health defender"/>
             </div>
          </section>
       )
